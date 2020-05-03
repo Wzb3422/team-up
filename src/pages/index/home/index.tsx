@@ -31,7 +31,7 @@ const Index: Taro.FC = () => {
       </Swiper>
       <TitleWithBar>热门活动</TitleWithBar>
       <View className='activity-list'>
-        <View className='activity-card'>
+        <View className='activity-item'>
           <View className='activity-img'/>
           <View className='activity-desc'>
             <Text className='activity-title'>活动名称</Text>

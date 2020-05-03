@@ -1,0 +1,36 @@
+.activity-card {
+  box-shadow: 0 2px 20px #eee;
+  .activity-card-top {
+    display: flex;
+    padding: 30px 38px;
+    height: 240px;
+    align-items: center;
+    border-bottom: 1px solid #aaa;
+    .activity-card-img {
+      background-color: #aaa;
+      height: 100%;
+      width: 55%;
+    }
+    .activity-card-team {
+      width: 55%;
+      height: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      padding-left: 20px;
+      box-sizing: border-box;
+    }
+  }
+  .activity-card-bottom {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    box-sizing: border-box;
+    padding: 8px 20px;
+    .activity-card-title {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

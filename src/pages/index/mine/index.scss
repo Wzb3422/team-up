@@ -1,0 +1,63 @@
+.mine {
+  margin: 0 64px;
+  display: flex;
+  flex-direction: column;
+}
+
+.user {
+  width: 100%;
+  height: 160px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  .user-content {
+    margin-left: 10%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+
+    .user-desc {
+      margin-left: 5%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      .user-name {
+        font-size: 32px;
+        color: #333;
+      }
+
+      .user-history {
+        font-size: 22px;
+        width: 100%;
+        color: #666;
+      }
+    }
+  }
+}
+
+.list-head {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &:nth-child(2n) {
+    margin-top: 50px;
+  }
+}
+
+button {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  height: 80px;
+  line-height: 80px;
+  width: 178px;
+  &::after {
+    border: 0;
+  }
+}
+
+.auth-btn {
+  background: none;
+  font-size: 44px;
+}
