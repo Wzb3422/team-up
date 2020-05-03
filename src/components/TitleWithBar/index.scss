@@ -1,0 +1,13 @@
+.container {
+  border-left: 10px;
+  border-left-color: #9FC1FF;
+  border-left-style: solid;
+  padding-left: 24px;
+  height: 52px;
+  margin: 24px 0;
+  .text {
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 52px;
+  }
+}
