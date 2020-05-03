@@ -1,6 +1,7 @@
 import Taro, { useEffect } from '@tarojs/taro'
 import { View, Text, Swiper, SwiperItem } from '@tarojs/components'
 import TitleWithBar from '../../../components/TitleWithBar'
+import { AtFab } from 'taro-ui'
 
 import './index.scss'
 const Index: Taro.FC = () => {

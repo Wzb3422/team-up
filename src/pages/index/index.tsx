@@ -1,10 +1,17 @@
 import Taro, { useState } from '@tarojs/taro'
-import { AtTabBar } from 'taro-ui'
-import { View } from '@tarojs/components'
+import { AtTabBar, AtFab } from 'taro-ui'
+import { View, Text } from '@tarojs/components'
 import Mine from './mine'
 import Home from './home'
+import './index.scss'
 
 const Index: Taro.FC = () => {
+
+  const toCreate = () => {
+    Taro.navigateTo({
+      url: '/pages/create/index'
+    })
+  }
 
   const [currentIdx, setCurrentIdx] = useState(0)
 
@@ -20,6 +27,9 @@ const Index: Taro.FC = () => {
         current={currentIdx}
         fixed
       />
+      <AtFab className='fab' onClick={toCreate}>
+        <Text className='at-fab__icon at-icon at-icon-add'></Text>
+      </AtFab>
     </View>
   )
 }
