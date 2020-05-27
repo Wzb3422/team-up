@@ -1,0 +1,12 @@
+.title-bar {
+  height: 100px;
+  margin: 0 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #333;
+}
+.title-bar-title {
+  font-size: 32px;
+  line-height: 50px;
+}
